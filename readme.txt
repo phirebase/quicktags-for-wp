@@ -2,7 +2,7 @@
 Contributors: brtak 
 Donate link: http://phirebase.com/about/
 Tags: quicktags, html editor, edit
-Requires at least: 3.0
+Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: trunk
 License: GPLv2 or later
@@ -28,7 +28,7 @@ Public release
  
 == Screenshots ==
 
-1. Screenshot
+1. wp-quicktags.png
 
 == Frequently Asked Questions ==
 
@@ -40,7 +40,7 @@ No need to update, it's a first version.
 
 == Credits ==
 
-Copyright 2013  David Klhufek  (info@phirebase.com)
+Copyright © 2013  David Klhufek  (info@phirebase.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
