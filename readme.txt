@@ -4,7 +4,7 @@ Donate link: http://phirebase.com/about/
 Tags: quicktags, html editor, edit
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,20 @@ h1,h2,h3,h4,h5,hr,nbsp
 1. Unzip into your `/wp-content/plugins/` directory. If you're uploading it make sure to upload the top-level folder. Don't just upload all the php files and put them in `/wp-content/plugins/`.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
+
+== Frequently Asked Questions ==
+
+Currently No FAQs but feel free to contact us with any questions you do have.
+
+== Screenshots ==
+
+1. screenshot-1.png
+
 == Changelog ==
+= 1.0.5 =
+Stable version
+= 1.0.4 =
+Added screenshot revision
 = 1.0.3 =
 Added screenshot
 = 1.0.2 =
@@ -32,17 +45,9 @@ Fixed release
 = 1.0 =
 Public release
  
-== Screenshots ==
-
-1. wp-quicktags.png
-
-== Frequently Asked Questions ==
-
-Currently No FAQs but feel free to contact us with any questions you do have.
-
 == Upgrade Notice ==
 
-No need to update, it's a first version.
+No need to update, it's a stable version.
 
 == Credits ==
 
