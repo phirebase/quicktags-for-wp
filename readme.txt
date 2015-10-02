@@ -33,7 +33,7 @@ Currently No FAQs but feel free to contact us with any questions you do have.
 
 == Changelog ==
 = 1.0.7 =
-Stable version - Added plugin icons
+Added plugin icons
 = 1.0.6 =
 Stable version
 = 1.0.5 =
