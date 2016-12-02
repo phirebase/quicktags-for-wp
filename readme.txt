@@ -1,10 +1,10 @@
-=== WP Quicktags ===
+﻿=== WP Quicktags ===
 Contributors: brtak 
-Donate link: http://phirebase.com/about/
+Donate link: http://phirebase.com/
 Tags: quicktags, html editor, edit
 Requires at least: 3.3
-Tested up to: 4.3.1
-Stable tag: 1.0.7
+Tested up to: 4.6.1
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ This simply plugin adds usefull buttons to native WordPress HTML editor.
 This simply plugin adds usefull buttons to native WordPress HTML editor. 
 
 Currently adds:
-h1,h2,h3,h4,h5,hr,nbsp
+h1, h2, h3, h4, h5, hr, nbsp
 
 == Installation ==
 
@@ -32,6 +32,8 @@ Currently No FAQs but feel free to contact us with any questions you do have.
 1. screenshot-1.png
 
 == Changelog ==
+= 1.0.8 =
+Stable version
 = 1.0.7 =
 Added plugin icons
 = 1.0.6 =
