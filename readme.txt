@@ -35,8 +35,7 @@ Currently No FAQs but feel free to contact us with any questions you do have.
 
 == Changelog ==
 = 1.0.9 =
-Added new button - Mox
-Quicktags buttons are now colored
+Added new button - Mox, Quicktags buttons are now colored
 = 1.0.8 =
 Stable version
 = 1.0.7 =
