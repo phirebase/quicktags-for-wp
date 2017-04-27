@@ -3,8 +3,8 @@ Contributors: brtak
 Donate link: http://phirebase.com/
 Tags: quicktags, html editor, edit
 Requires at least: 3.3
-Tested up to: 4.7
-Stable tag: 1.0.9
+Tested up to: 4.7.4
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,8 @@ Currently No FAQs but feel free to contact us with any questions you do have.
 1. screenshot-1.png
 
 == Changelog ==
+= 1.1 =
+Updated screenshots, fixed Uncaught ReferenceError: QTags is not defined
 = 1.0.9 =
 Added new button - Mox, Quicktags buttons are now colored
 = 1.0.8 =
