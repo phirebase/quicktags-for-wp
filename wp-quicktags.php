@@ -2,9 +2,9 @@
 /*
 Plugin Name: WP Quicktags
 Description: This simply plugin adds usefull buttons to native WordPress HTML editor. 
-Version: 1.1
+Version: 1.2
 Author: phirebase
-Author URI: http://phirebase.com/
+Author URI: https://phirebase.com/
 License: GPL2
 */
 
