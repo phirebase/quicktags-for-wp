@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Quicktags
-Description: This simply plugin adds usefull buttons to native WordPress HTML editor. 
+Description: This simply plugin adds useful buttons to native WordPress HTML editor. 
 Version: 1.2
 Author: phirebase
 Author URI: https://phirebase.com/
