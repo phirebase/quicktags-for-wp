@@ -8,11 +8,11 @@ Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This simply plugin adds usefull buttons to native WordPress HTML editor. 
+This simply plugin adds useful buttons to native WordPress HTML editor. 
 
 == Description ==
 
-This simply plugin adds usefull buttons to native WordPress HTML editor. 
+This simply plugin adds useful buttons to native WordPress HTML editor. 
 
 Currently adds:
 h1, h2, h3, h4, h5, hr, nbsp, mox
