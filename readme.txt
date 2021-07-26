@@ -3,8 +3,8 @@ Contributors: brtak
 Donate link: https://phirebase.com/
 Tags: quicktags, html editor, edit
 Requires at least: 3.3
-Tested up to: 5.6
-Stable tag: 1.2
+Tested up to: 5.7
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,8 @@ Currently No FAQs but feel free to contact us with any questions you do have.
 1. screenshot-1.png
 
 == Changelog ==
+= 1.3 =
+Updated readme.txt, fixed small typo errors
 = 1.2 =
 Updated readme.txt, fixed small typo errors
 = 1.1 =

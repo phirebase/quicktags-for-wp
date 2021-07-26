@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Quicktags
 Description: This simply plugin adds useful buttons to native WordPress HTML editor. 
-Version: 1.2
+Version: 1.3
 Author: phirebase
 Author URI: https://phirebase.com/
 License: GPL2
@@ -11,7 +11,7 @@ License: GPL2
 // add more buttons to the html editor
 function appthemes_add_quicktags() {
 //check to see if the 'quicktags' script is in use to avoid errors 
- if (wp_script_is('quicktags')){ 
+if (wp_script_is('quicktags')){ 
 ?>
     <script type="text/javascript">
     QTags.addButton( 'eg_strong', 'b', '<strong>', '</strong>', 'b', 'Strong', 1 );
