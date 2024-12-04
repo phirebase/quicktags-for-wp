@@ -1,16 +1,31 @@
-.mox {  height: auto; width: 100%;
-        border-left: 1px solid #E5E5E5;
-	border-top: 1px solid #E5E5E5;
-	border-right: 1px solid #E5E5E5;
-	border-bottom: 1px solid #E5E5E5;
-	padding-left: 15px; padding-bottom: 15px;
-        padding-right: 15px;
-        padding-top: 15px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        background-color: #F9F9F9;
-        -webkit-box-shadow: 0 8px 6px -6px #777;
-	-moz-box-shadow: 0 8px 6px -6px #777;
-	box-shadow: 0 8px 6px -6px #777;
+/* Styles for the .mox class */
+.mox {
+    height: auto;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #F9F9F9;
+    -webkit-box-shadow: 0 8px 6px -6px #777;
+    -moz-box-shadow: 0 8px 6px -6px #777;
+    box-shadow: 0 8px 6px -6px #777;
 }
-.mox img { /*max-width: 545px;*/ height: auto; width: 100%;}
+
+.mox img {
+    height: auto;
+    width: 100%;
+}
+
+/* Quicktags button styles */
+#qt_content_eg_strong,
+#qt_content_eg_h1,
+#qt_content_eg_h2,
+#qt_content_eg_h3,
+#qt_content_eg_h4,
+#qt_content_eg_h5,
+#qt_content_eg_hr,
+#qt_content_eg_nbsp,
+#qt_content_eg_mox {
+    background-color: #777;
+    color: #fff;
+}
