@@ -3,8 +3,8 @@ Contributors: brtak
 Donate link: https://phirebase.com/
 Tags: quicktags, html editor, edit, classic editor
 Requires at least: 3.3
-Tested up to: 6.7
-Stable tag: 1.4
+Tested up to: 6.7.1
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ This simple plugin adds useful buttons to the native WordPress HTML editor.
 This simple plugin adds useful buttons to the native WordPress HTML editor (Classic Editor).
 
 Currently adds:
-h1, h2, h3, h4, h5, hr, nbsp, mox
+h1, h2, h3, h4, h5, span, hr, nbsp, mox
 
 The "mox" button adds a nice responsive CSS class which you can use to highlight pictures or other elements in your posts.
 
@@ -24,8 +24,7 @@ The "mox" button adds a nice responsive CSS class which you can use to highlight
 == Compatibility ==
 
 - Requires the Classic Editor to be active.
-- Tested with WordPress 6.7.
-- Fully compatible with modern WordPress installations where the Classic Editor plugin is installed and activated.
+- Designed specifically for the **HTML mode** of the editor.
 
 == Installation ==
 
@@ -48,6 +47,10 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 1. screenshot-1.png
 
 == Changelog ==
+
+= 1.4.1 =
+- Removed the "b" button as it was redundant in newer versions of the Classic Editor where this functionality is already included by default.
+- Added the "span" button before the "hr" button.
 
 = 1.4 =
 - Complete rewrite of the plugin according to new guidelines.
