@@ -3,11 +3,12 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /*
 Plugin Name: Quicktags for WP
-Description: This simple plugin adds useful buttons to the native WordPress HTML editor.
 Version: 1.4.1
+Description: This simple plugin adds useful buttons to the native WordPress HTML editor.
 Author: phirebase
 Author URI: https://phirebase.com/
-License: GPL2
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Add more buttons to the HTML editor
