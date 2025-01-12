@@ -1,7 +1,7 @@
 ﻿=== Quicktags for WP ===  
 Contributors: brtak   
 Tags: quicktags, html editor, edit, classic editor  
-Stable tag: 1.4.2    
+Stable tag: 1.4.3    
 Tested up to: 6.7.1  
 Donate link: https://paypal.me/DavidKlhufek  
 License: GPLv2 or later  
@@ -46,6 +46,9 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 1. screenshot-1.png  
 
 == Changelog ==  
+
+= 1.4.3 =  
+- Updated code to comply with WordPress Coding Standards using PHPCS.  
 
 = 1.4.2 =  
 - Fixed header placement and added PayPal donate link.    
