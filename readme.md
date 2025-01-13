@@ -48,7 +48,7 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 == Changelog ==  
 
 = 1.4.3 =  
-- Updated code to comply with WordPress Coding Standards using PHPCS.  
+- Updated code to comply with WordPress Coding Standards using PHPCS. Updated assets images.    
 
 = 1.4.2 =  
 - Fixed header placement and added PayPal donate link.    
