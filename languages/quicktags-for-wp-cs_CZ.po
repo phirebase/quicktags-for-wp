@@ -1,0 +1,116 @@
+# Copyright (C) 2025 phirebase
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quicktags for WP 1.4.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-quicktags\n"
+"POT-Creation-Date: 2025-01-24T23:03:59+00:00\n"
+"PO-Revision-Date: 2025-01-25 00:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: quicktags-for-wp\n"
+
+#. Plugin Name of the plugin
+#: C:\Users\david\Local
+#: Sites\dev\app\public\wp-content\plugins\wp-quicktags\quicktags-for-wp.php
+msgid "Quicktags for WP"
+msgstr "Quicktagy pro WP"
+
+#. Description of the plugin
+#: C:\Users\david\Local
+#: Sites\dev\app\public\wp-content\plugins\wp-quicktags\quicktags-for-wp.php
+msgid "This simple plugin adds useful buttons to the native WordPress HTML editor."
+msgstr "Tento jednoduchý plugin přidává užitečná tlačítka do klasického editoru HTML ve WordPressu."
+
+#. Author of the plugin
+#: C:\Users\david\Local
+#: Sites\dev\app\public\wp-content\plugins\wp-quicktags\quicktags-for-wp.php
+msgid "phirebase"
+msgstr "phirebase"
+
+#. Author URI of the plugin
+#: C:\Users\david\Local
+#: Sites\dev\app\public\wp-content\plugins\wp-quicktags\quicktags-for-wp.php
+msgid "https://phirebase.com/"
+msgstr "https://phirebase.com/"
+
+#: quicktags-for-wp.php:38
+msgid "Quicktags for WP requires the Classic Editor plugin to be active."
+msgstr "Quicktagy pro WP vyžadují, aby byl aktivní plugin Klasický editor."
+
+#: quicktags-for-wp.php:79
+msgid "h1"
+msgstr "h1"
+
+#: quicktags-for-wp.php:79
+msgid "Heading 1"
+msgstr "Nadpis 1"
+
+#: quicktags-for-wp.php:80
+msgid "h2"
+msgstr "h2"
+
+#: quicktags-for-wp.php:80
+msgid "Heading 2"
+msgstr "Nadpis 2"
+
+#: quicktags-for-wp.php:81
+msgid "h3"
+msgstr "h3"
+
+#: quicktags-for-wp.php:81
+msgid "Heading 3"
+msgstr "Nadpis 3"
+
+#: quicktags-for-wp.php:82
+msgid "h4"
+msgstr "h4"
+
+#: quicktags-for-wp.php:82
+msgid "Heading 4"
+msgstr "Nadpis 4"
+
+#: quicktags-for-wp.php:83
+msgid "h5"
+msgstr "h5"
+
+#: quicktags-for-wp.php:83
+msgid "Heading 5"
+msgstr "Nadpis 5"
+
+#: quicktags-for-wp.php:84
+msgid "span"
+msgstr "span"
+
+#: quicktags-for-wp.php:84
+msgid "Span tag"
+msgstr "Značka Span"
+
+#: quicktags-for-wp.php:85
+msgid "hr"
+msgstr "hr"
+
+#: quicktags-for-wp.php:85
+msgid "Horizontal line"
+msgstr "Vodorovná čára"
+
+#: quicktags-for-wp.php:86
+msgid "nbsp"
+msgstr "nbsp"
+
+#: quicktags-for-wp.php:86
+msgid "Non-breaking space"
+msgstr "Nezlomová mezera"
+
+#: quicktags-for-wp.php:87
+msgid "mox"
+msgstr "mox"
+
+#: quicktags-for-wp.php:87
+msgid "Mox div"
+msgstr "Mox div"
