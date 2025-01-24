@@ -3,7 +3,7 @@ Contributors: brtak
 Tags: quicktags, html editor, edit, classic editor  
 Stable tag: 1.4.4    
 Tested up to: 6.7.1  
-Requires Plugins: classic-editor
+Requires Plugins: classic-editor  
 Donate link: https://paypal.me/DavidKlhufek  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
