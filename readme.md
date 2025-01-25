@@ -50,7 +50,6 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 
 = 1.4.4 =  
 - Added dependency check for the Classic Editor plugin, ensuring it is active and displaying a warning if not.
-- Implemented language support, including the `quicktags-for-wp` text domain and preparation of the `.pot` file.
 - Updated the plugin header to include Text Domain for translation support.
 
 = 1.4.3 =  
