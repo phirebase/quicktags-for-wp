@@ -9,10 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-24T23:03:59+00:00\n"
+"POT-Creation-Date: 2025-01-25T00:31:56+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
-"X-Domain: quicktags-for-wp\n"
+"X-Domain: wp-quicktags\n"
 
 #. Plugin Name of the plugin
 #: C:\Users\david\Local Sites\dev\app\public\wp-content\plugins\wp-quicktags\quicktags-for-wp.php
@@ -34,78 +34,78 @@ msgstr ""
 msgid "https://phirebase.com/"
 msgstr ""
 
-#: quicktags-for-wp.php:38
+#: quicktags-for-wp.php:40
 msgid "Quicktags for WP requires the Classic Editor plugin to be active."
 msgstr ""
 
-#: quicktags-for-wp.php:79
+#: quicktags-for-wp.php:81
 msgid "h1"
 msgstr ""
 
-#: quicktags-for-wp.php:79
+#: quicktags-for-wp.php:81
 msgid "Heading 1"
 msgstr ""
 
-#: quicktags-for-wp.php:80
+#: quicktags-for-wp.php:82
 msgid "h2"
 msgstr ""
 
-#: quicktags-for-wp.php:80
+#: quicktags-for-wp.php:82
 msgid "Heading 2"
 msgstr ""
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "h3"
 msgstr ""
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "Heading 3"
 msgstr ""
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "h4"
 msgstr ""
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "Heading 4"
 msgstr ""
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "h5"
 msgstr ""
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "Heading 5"
 msgstr ""
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "span"
 msgstr ""
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "Span tag"
 msgstr ""
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "hr"
 msgstr ""
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "Horizontal line"
 msgstr ""
 
-#: quicktags-for-wp.php:86
+#: quicktags-for-wp.php:88
 msgid "nbsp"
 msgstr ""
 
-#: quicktags-for-wp.php:86
+#: quicktags-for-wp.php:88
 msgid "Non-breaking space"
 msgstr ""
 
-#: quicktags-for-wp.php:87
+#: quicktags-for-wp.php:89
 msgid "mox"
 msgstr ""
 
-#: quicktags-for-wp.php:87
+#: quicktags-for-wp.php:89
 msgid "Mox div"
 msgstr ""
