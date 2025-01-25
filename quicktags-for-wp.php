@@ -7,7 +7,8 @@ Author: phirebase
 Author URI: https://phirebase.com/
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: quicktags-for-wp
+Text Domain: wp-quicktags
+Domain Path: /languages
  *
  * @package QuicktagsforWP
  */
@@ -19,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Load plugin translations.
  */
 function wpqt_load_textdomain() {
-	load_plugin_textdomain( 'quicktags-for-wp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'wp-quicktags', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 add_action( 'plugins_loaded', 'wpqt_load_textdomain' );
 
@@ -36,7 +37,7 @@ add_action(
 				function () {
 					?>
 			<div class="notice notice-error">
-				<p><strong><?php echo esc_html__( 'Quicktags for WP requires the Classic Editor plugin to be active.', 'quicktags-for-wp' ); ?></strong></p>
+				<p><strong><?php echo esc_html__( 'Quicktags for WP requires the Classic Editor plugin to be active.', 'wp-quicktags' ); ?></strong></p>
 			</div>
 					<?php
 				}
