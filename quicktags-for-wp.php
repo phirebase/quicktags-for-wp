@@ -74,25 +74,25 @@ add_action( 'wp_enqueue_scripts', 'wpqt_enqueue_frontend_styles' );
  * Add more buttons to the HTML editor.
  */
 function wpqt_add_quicktags() {
-    // Ensure we are in the Classic Editor and Quicktags is available.
-    if (wp_script_is('quicktags', 'registered')) {
-        ?>
-        <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function() {
-            if (typeof QTags !== 'undefined') {
-                QTags.addButton('eg_h1', '<?php echo esc_js(__('h1', 'wp-quicktags')); ?>', '<h1>', '</h1>', '', '<?php echo esc_js(__('Heading 1', 'wp-quicktags')); ?>', 1);
-                QTags.addButton('eg_h2', '<?php echo esc_js(__('h2', 'wp-quicktags')); ?>', '<h2>', '</h2>', '', '<?php echo esc_js(__('Heading 2', 'wp-quicktags')); ?>', 2);
-                QTags.addButton('eg_h3', '<?php echo esc_js(__('h3', 'wp-quicktags')); ?>', '<h3>', '</h3>', '', '<?php echo esc_js(__('Heading 3', 'wp-quicktags')); ?>', 3);
-                QTags.addButton('eg_h4', '<?php echo esc_js(__('h4', 'wp-quicktags')); ?>', '<h4>', '</h4>', '', '<?php echo esc_js(__('Heading 4', 'wp-quicktags')); ?>', 4);
-                QTags.addButton('eg_h5', '<?php echo esc_js(__('h5', 'wp-quicktags')); ?>', '<h5>', '</h5>', '', '<?php echo esc_js(__('Heading 5', 'wp-quicktags')); ?>', 5);
-                QTags.addButton('eg_span', '<?php echo esc_js(__('span', 'wp-quicktags')); ?>', '<span>', '</span>', '', '<?php echo esc_js(__('Span', 'wp-quicktags')); ?>', 200);
-                QTags.addButton('eg_hr', '<?php echo esc_js(__('hr', 'wp-quicktags')); ?>', '<hr />', '', '', '<?php echo esc_js(__('Horizontal rule line', 'wp-quicktags')); ?>', 201);
-                QTags.addButton('eg_nbsp', '<?php echo esc_js(__('nbsp', 'wp-quicktags')); ?>', '&nbsp;', '', '', '<?php echo esc_js(__('Non Breaking Space', 'wp-quicktags')); ?>', 202);
-                QTags.addButton('eg_mox', '<?php echo esc_js(__('mox', 'wp-quicktags')); ?>', '<div class="mox">', '</div>', '', '<?php echo esc_js(__('Mox', 'wp-quicktags')); ?>', 203);
-            }
-        });
-        </script>
-        <?php
-    }
+	// Ensure we are in the Classic Editor and Quicktags is available.
+	if ( wp_script_is( 'quicktags', 'registered' ) ) {
+		?>
+		<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function() {
+			if (typeof QTags !== 'undefined') {
+				QTags.addButton('eg_h1', '<?php echo esc_js( __( 'h1', 'wp-quicktags' ) ); ?>', '<h1>', '</h1>', '', '<?php echo esc_js( __( 'Heading 1', 'wp-quicktags' ) ); ?>', 1);
+				QTags.addButton('eg_h2', '<?php echo esc_js( __( 'h2', 'wp-quicktags' ) ); ?>', '<h2>', '</h2>', '', '<?php echo esc_js( __( 'Heading 2', 'wp-quicktags' ) ); ?>', 2);
+				QTags.addButton('eg_h3', '<?php echo esc_js( __( 'h3', 'wp-quicktags' ) ); ?>', '<h3>', '</h3>', '', '<?php echo esc_js( __( 'Heading 3', 'wp-quicktags' ) ); ?>', 3);
+				QTags.addButton('eg_h4', '<?php echo esc_js( __( 'h4', 'wp-quicktags' ) ); ?>', '<h4>', '</h4>', '', '<?php echo esc_js( __( 'Heading 4', 'wp-quicktags' ) ); ?>', 4);
+				QTags.addButton('eg_h5', '<?php echo esc_js( __( 'h5', 'wp-quicktags' ) ); ?>', '<h5>', '</h5>', '', '<?php echo esc_js( __( 'Heading 5', 'wp-quicktags' ) ); ?>', 5);
+				QTags.addButton('eg_span', '<?php echo esc_js( __( 'span', 'wp-quicktags' ) ); ?>', '<span>', '</span>', '', '<?php echo esc_js( __( 'Span', 'wp-quicktags' ) ); ?>', 200);
+				QTags.addButton('eg_hr', '<?php echo esc_js( __( 'hr', 'wp-quicktags' ) ); ?>', '<hr />', '', '', '<?php echo esc_js( __( 'Horizontal rule line', 'wp-quicktags' ) ); ?>', 201);
+				QTags.addButton('eg_nbsp', '<?php echo esc_js( __( 'nbsp', 'wp-quicktags' ) ); ?>', '&nbsp;', '', '', '<?php echo esc_js( __( 'Non Breaking Space', 'wp-quicktags' ) ); ?>', 202);
+				QTags.addButton('eg_mox', '<?php echo esc_js( __( 'mox', 'wp-quicktags' ) ); ?>', '<div class="mox">', '</div>', '', '<?php echo esc_js( __( 'Mox', 'wp-quicktags' ) ); ?>', 203);
+			}
+		});
+		</script>
+		<?php
+	}
 }
-add_action('admin_print_footer_scripts', 'wpqt_add_quicktags', 100);
+add_action( 'admin_print_footer_scripts', 'wpqt_add_quicktags', 100 );
