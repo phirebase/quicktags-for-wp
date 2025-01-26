@@ -52,7 +52,7 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 = 1.4.4 =  
 
 - Added dependency check for the Classic Editor plugin, ensuring it is active and displaying a warning if not.
-- Updated the plugin header to include Text Domain for translation support.
+- Updated the plugin code to include Text Domain for translation support.
 
 = 1.4.3 =  
 
