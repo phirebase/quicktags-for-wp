@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-25T00:31:56+00:00\n"
+"POT-Creation-Date: 2025-01-26T14:04:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: wp-quicktags\n"
@@ -38,74 +38,74 @@ msgstr ""
 msgid "Quicktags for WP requires the Classic Editor plugin to be active."
 msgstr ""
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "h1"
 msgstr ""
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "Heading 1"
 msgstr ""
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "h2"
 msgstr ""
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "Heading 2"
 msgstr ""
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "h3"
 msgstr ""
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "Heading 3"
 msgstr ""
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "h4"
 msgstr ""
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "Heading 4"
 msgstr ""
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "h5"
 msgstr ""
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "Heading 5"
 msgstr ""
 
-#: quicktags-for-wp.php:86
+#: quicktags-for-wp.php:88
 msgid "span"
 msgstr ""
 
-#: quicktags-for-wp.php:86
-msgid "Span tag"
+#: quicktags-for-wp.php:88
+msgid "Span"
 msgstr ""
 
-#: quicktags-for-wp.php:87
+#: quicktags-for-wp.php:89
 msgid "hr"
 msgstr ""
 
-#: quicktags-for-wp.php:87
-msgid "Horizontal line"
+#: quicktags-for-wp.php:89
+msgid "Horizontal rule line"
 msgstr ""
 
-#: quicktags-for-wp.php:88
+#: quicktags-for-wp.php:90
 msgid "nbsp"
 msgstr ""
 
-#: quicktags-for-wp.php:88
-msgid "Non-breaking space"
+#: quicktags-for-wp.php:90
+msgid "Non Breaking Space"
 msgstr ""
 
-#: quicktags-for-wp.php:89
+#: quicktags-for-wp.php:91
 msgid "mox"
 msgstr ""
 
-#: quicktags-for-wp.php:89
-msgid "Mox div"
+#: quicktags-for-wp.php:91
+msgid "Mox"
 msgstr ""

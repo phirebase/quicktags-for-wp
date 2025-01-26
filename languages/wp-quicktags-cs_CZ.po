@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quicktags for WP 1.4.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-quicktags\n"
-"POT-Creation-Date: 2025-01-25T00:31:56+00:00\n"
-"PO-Revision-Date: 2025-01-25 01:33+0100\n"
+"POT-Creation-Date: 2025-01-26T14:04:13+00:00\n"
+"PO-Revision-Date: 2025-01-26 15:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -46,74 +46,77 @@ msgstr "https://phirebase.com/"
 msgid "Quicktags for WP requires the Classic Editor plugin to be active."
 msgstr "Quicktagy pro WP vyžadují, aby byl aktivní plugin Klasický editor."
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "h1"
 msgstr "h1"
 
-#: quicktags-for-wp.php:81
+#: quicktags-for-wp.php:83
 msgid "Heading 1"
-msgstr "Nadpis 1"
+msgstr "Nadpis h1"
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "h2"
 msgstr "h2"
 
-#: quicktags-for-wp.php:82
+#: quicktags-for-wp.php:84
 msgid "Heading 2"
-msgstr "Nadpis 2"
+msgstr "Nadpis h2"
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "h3"
 msgstr "h3"
 
-#: quicktags-for-wp.php:83
+#: quicktags-for-wp.php:85
 msgid "Heading 3"
-msgstr "Nadpis 3"
+msgstr "Nadpis h3"
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "h4"
 msgstr "h4"
 
-#: quicktags-for-wp.php:84
+#: quicktags-for-wp.php:86
 msgid "Heading 4"
-msgstr "Nadpis 4"
+msgstr "Nadpis h4"
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "h5"
 msgstr "h5"
 
-#: quicktags-for-wp.php:85
+#: quicktags-for-wp.php:87
 msgid "Heading 5"
-msgstr "Nadpis 5"
+msgstr "Nadpis h5"
 
-#: quicktags-for-wp.php:86
+#: quicktags-for-wp.php:88
 msgid "span"
 msgstr "span"
 
-#: quicktags-for-wp.php:86
-msgid "Span tag"
-msgstr "Značka Span"
+#: quicktags-for-wp.php:88
+msgid "Span"
+msgstr "Span"
 
-#: quicktags-for-wp.php:87
+#: quicktags-for-wp.php:89
 msgid "hr"
 msgstr "hr"
 
-#: quicktags-for-wp.php:87
-msgid "Horizontal line"
-msgstr "Vodorovná čára"
+#: quicktags-for-wp.php:89
+msgid "Horizontal rule line"
+msgstr "Vodorovná oddělovací čára"
 
-#: quicktags-for-wp.php:88
+#: quicktags-for-wp.php:90
 msgid "nbsp"
 msgstr "nbsp"
 
-#: quicktags-for-wp.php:88
-msgid "Non-breaking space"
-msgstr "Nezlomová mezera"
+#: quicktags-for-wp.php:90
+msgid "Non Breaking Space"
+msgstr "Pevná mezera"
 
-#: quicktags-for-wp.php:89
+#: quicktags-for-wp.php:91
 msgid "mox"
 msgstr "mox"
 
-#: quicktags-for-wp.php:89
-msgid "Mox div"
-msgstr "Mox div"
+#: quicktags-for-wp.php:91
+msgid "Mox"
+msgstr "Mox"
+
+#~ msgid "Mox div"
+#~ msgstr "Mox div"

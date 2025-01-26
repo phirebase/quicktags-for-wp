@@ -1,13 +1,12 @@
-﻿# === Quicktags for WP ===  
-
-Contributors: brtak
-Donate link: <https://paypal.me/DavidKlhufek>
+﻿=== Quicktags for WP ===  
+Contributors: brtak   
+Donate link: https://paypal.me/DavidKlhufek  
 Tags: quicktags, html editor, edit, classic editor  
-Tested up to: 6.7.1
-Stable tag: 1.4.4
+Tested up to: 6.7.1 
+Stable tag: 1.4.4    
 Requires Plugins: classic-editor  
 License: GPLv2 or later  
-License URI: <http://www.gnu.org/licenses/gpl-2.0.html>  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
 This simple plugin adds useful buttons to the native WordPress HTML editor.  
 
@@ -50,25 +49,20 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 == Changelog ==
 
 = 1.4.4 =  
-
 - Added dependency check for the Classic Editor plugin, ensuring it is active and displaying a warning if not.
 - Updated the plugin header to include Text Domain for translation support.
 
 = 1.4.3 =  
-
 - Updated code to comply with WordPress Coding Standards using PHPCS.  
 
 = 1.4.2 =  
-
-- Fixed header placement and added PayPal donate link.
+- Fixed header placement and added PayPal donate link.    
 
 = 1.4.1 =  
-
 - Removed the "b" button as it was redundant in newer versions of the Classic Editor where this functionality is already included by default.
 - Added the "span" button before the "hr" button.  
 
 = 1.4 =  
-
 - Complete rewrite of the plugin according to new guidelines.  
 - Changed the plugin name to "Quicktags for WP".  
 - Prevented direct file access by adding security checks to all PHP files.  
@@ -77,19 +71,15 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 - Resolved potential conflicts with other plugins by ensuring all function names, classes, and options are unique.  
 
 = 1.3 =  
-
 - Updated readme.txt, fixed small typo errors  
 
 = 1.2 =  
-
 - Updated readme.txt, fixed small typo errors  
 
 = 1.1 =  
-
-- Updated screenshots, fixed Uncaught ReferenceError: QTags is not defined
+- Updated screenshots, fixed Uncaught ReferenceError: QTags is not defined    
 
 = 1.0 =  
-
 - Public release  
 
 == Upgrade Notice ==  
