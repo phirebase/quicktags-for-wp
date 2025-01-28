@@ -1,15 +1,19 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/post.php?post=1&action=edit&editor=html",
+	"landingPage": "/wp-admin/post.php?post=1&action=edit",
 	"preferredVersions": {
 		"php": "8.0",
 		"wp": "latest"
 	},
-	"phpExtensionBundles": ["kitchen-sink"],
-	"features": {
-		"networking": true
-	},
+	"phpExtensionBundles": [
+		"kitchen-sink"
+	],
 	"steps": [
+		{
+			"step": "login",
+			"username": "admin",
+			"password": "password"
+		},
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
@@ -31,20 +35,18 @@
 			}
 		},
 		{
-			"step": "login",
-			"username": "admin",
-			"password": "password"
-		},
-		{
 			"step": "createPost",
 			"title": "Nový příspěvek",
 			"content": "",
 			"status": "draft"
 		},
 		{
-			"step": "editPost",
-			"postId": 1,
-			"editorMode": "html"
+			"step": "runPHP",
+			"code": "<?php require_once ABSPATH . 'wp-load.php'; wp_update_post(['ID' => 1, 'post_status' => 'publish']); ?>"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php update_user_meta(1, 'rich_editing', 'false'); ?>"
 		}
 	]
 }
