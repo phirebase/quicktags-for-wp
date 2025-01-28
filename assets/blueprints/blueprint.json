@@ -1,48 +1,28 @@
 {
-	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/plugins.php",
-	"preferredVersions": {
-		"php": "8.0",
-		"wp": "latest"
-	},
-	"phpExtensionBundles": ["kitchen-sink"],
-	"features": {
-		"networking": true
-	},
-	"steps": [
-		{
-			"step": "installPlugin",
-			"pluginZipFile": {
-				"url": "https://downloads.wordpress.org/plugin/classic-editor.6.7.1.zip"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginZipFile": {
-				"resource": "wordpress.org/plugins",
-				"slug": "wp-quicktags"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
-			"step": "login",
-			"username": "admin",
-			"password": "password"
-		},
-		{
-			"step": "createPost",
-			"title": "Nový příspěvek",
-			"content": "",
-			"status": "draft"
-		},
-		{
-			"step": "redirect",
-			"url": "/wp-admin/post.php?post=1&action=edit"
-		}
-	]
+    "landingPage": "/wp-admin/post-new.php",
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org/plugins",
+                "slug": "classic-editor"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "writeFile",
+            "path": "/wordpress/wp-content/mu-plugins/playground-notice.php",
+            "data": "<?php add_action( 'admin_notices', function() { echo '<div class=\"notice notice-info is-dismissible\"><p>This is a live preview of <strong>Classic Editor</strong>, powered by <a href=\"https://wordpress.org/playground/\" target=\"_blank\">WordPress Playground</a>.</p></div>'; } );"
+        }
+    ]
 }
