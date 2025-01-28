@@ -1,14 +1,11 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/post.php?post=1&action=edit",
+	"landingPage": "/wp-admin/plugins.php",
 	"preferredVersions": {
 		"php": "8.0",
 		"wp": "latest"
 	},
 	"phpExtensionBundles": ["kitchen-sink"],
-	"features": {
-		"networking": true
-	},
 	"steps": [
 		{
 			"step": "installPlugin",
@@ -19,27 +16,6 @@
 			"options": {
 				"activate": true
 			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginZipFile": {
-				"resource": "wordpress.org/plugins",
-				"slug": "wp-quicktags"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
-			"step": "login",
-			"username": "admin",
-			"password": "password"
-		},
-		{
-			"step": "createPost",
-			"title": "Nový příspěvek",
-			"content": "",
-			"status": "draft"
 		}
 	]
 }
