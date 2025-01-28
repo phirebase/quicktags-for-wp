@@ -5,9 +5,7 @@
 		"php": "8.0",
 		"wp": "latest"
 	},
-	"phpExtensionBundles": [
-		"kitchen-sink"
-	],
+	"phpExtensionBundles": ["kitchen-sink"],
 	"steps": [
 		{
 			"step": "login",
@@ -35,18 +33,16 @@
 			}
 		},
 		{
-			"step": "createPost",
-			"title": "Nový příspěvek",
-			"content": "",
-			"status": "draft"
+			"step": "runPHP",
+			"code": "<?php require_once ABSPATH . 'wp-load.php'; wp_insert_post(['post_title' => 'Nový příspěvek', 'post_content' => '', 'post_status' => 'draft']); ?>"
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php require_once ABSPATH . 'wp-load.php'; wp_update_post(['ID' => 1, 'post_status' => 'publish']); ?>"
+			"code": "<?php require_once ABSPATH . 'wp-load.php'; update_user_meta(1, 'rich_editing', 'false'); ?>"
 		},
 		{
-			"step": "runPHP",
-			"code": "<?php update_user_meta(1, 'rich_editing', 'false'); ?>"
+			"step": "redirect",
+			"url": "/wp-admin/post.php?post=1&action=edit"
 		}
 	]
 }
