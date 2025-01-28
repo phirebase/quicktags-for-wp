@@ -1,6 +1,6 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/post.php?post=1&action=edit",
+	"landingPage": "/wp-admin/plugins.php",
 	"preferredVersions": {
 		"php": "8.0",
 		"wp": "latest"
@@ -13,8 +13,7 @@
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
-				"resource": "wordpress.org/plugins",
-				"slug": "classic-editor"
+				"url": "https://downloads.wordpress.org/plugin/classic-editor.latest-stable.zip"
 			},
 			"options": {
 				"activate": true
