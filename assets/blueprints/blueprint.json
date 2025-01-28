@@ -1,6 +1,6 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/plugins.php",
+	"landingPage": "/wp-admin/post.php?post=1&action=edit",
 	"preferredVersions": {
 		"php": "8.0",
 		"wp": "latest"
@@ -10,6 +10,16 @@
 		"networking": true
 	},
 	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "classic-editor"
+			},
+			"options": {
+				"activate": true
+			}
+		},
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
@@ -24,6 +34,16 @@
 			"step": "login",
 			"username": "admin",
 			"password": "password"
+		},
+		{
+			"step": "createPost",
+			"title": "Nový příspěvek",
+			"content": "",
+			"status": "draft"
+		},
+		{
+			"step": "redirect",
+			"url": "/wp-admin/post.php?post=1&action=edit"
 		}
 	]
 }
