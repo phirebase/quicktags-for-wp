@@ -6,12 +6,10 @@
 		"wp": "latest"
 	},
 	"phpExtensionBundles": ["kitchen-sink"],
+	"features": {
+		"networking": true
+	},
 	"steps": [
-		{
-			"step": "login",
-			"username": "admin",
-			"password": "password"
-		},
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
@@ -33,16 +31,15 @@
 			}
 		},
 		{
-			"step": "runPHP",
-			"code": "<?php require_once ABSPATH . 'wp-load.php'; wp_insert_post(['post_title' => 'Nový příspěvek', 'post_content' => '', 'post_status' => 'draft']); ?>"
+			"step": "login",
+			"username": "admin",
+			"password": "password"
 		},
 		{
-			"step": "runPHP",
-			"code": "<?php require_once ABSPATH . 'wp-load.php'; update_user_meta(1, 'rich_editing', 'false'); ?>"
-		},
-		{
-			"step": "redirect",
-			"url": "/wp-admin/post.php?post=1&action=edit"
+			"step": "createPost",
+			"title": "Nový příspěvek",
+			"content": "",
+			"status": "draft"
 		}
 	]
 }
