@@ -13,7 +13,7 @@
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
-				"url": "https://downloads.wordpress.org/plugin/classic-editor.latest-stable.zip"
+				"url": "https://downloads.wordpress.org/plugin/classic-editor.6.7.1.zip"
 			},
 			"options": {
 				"activate": true
