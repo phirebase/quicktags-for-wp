@@ -45,7 +45,7 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 
 == Screenshots ==  
 
-1. screenshot-1.png  
+![Quicktags for WP](./screenshot-1.png)
 
 == Changelog ==
 
