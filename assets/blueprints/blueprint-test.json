@@ -25,7 +25,7 @@
     "steps": [
         {
             "step": "wp-cli",
-            "command": ["user", "meta", "update", "1", "rich_editing", "false"]
+            "command": ["wp", "user", "meta", "update", "1", "rich_editing", "false"]
         }
     ]
 }
