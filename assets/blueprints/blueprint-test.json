@@ -35,11 +35,9 @@
             "data": "<?php add_action( 'admin_notices', function() { echo '<div class=\"notice notice-info is-dismissible\"><p>This is a live preview of <strong>Classic Editor</strong> and <strong>WP Quicktags</strong>, powered by <a href=\"https://wordpress.org/playground/\" target=\"_blank\">WordPress Playground</a>.</p></div>'; } );"
         },
         {
-            "step": "setSiteOptions",
-            "options": {
-                "rich_editing": "false"
+            "step": "wp-cli",
+            "command": ["user", "meta", "update", "1", "rich_editing", "false"]
         }
-    }
         
     ]
 }
