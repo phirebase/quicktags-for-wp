@@ -1,43 +1,23 @@
 {
+    "$schema": "http://json-schema.org/schema",
     "landingPage": "/wp-admin/post-new.php",
-    "features": {
-        "networking": true
-    },
+    "login": true,
+    "plugins": [
+        {
+            "resource": "wordpress.org/plugins",
+            "slug": "classic-editor",
+            "activate": true
+        },
+        {
+            "resource": "wordpress.org/plugins",
+            "slug": "wp-quicktags",
+            "activate": true
+        }
+    ],
     "steps": [
-        {
-            "step": "login",
-            "username": "admin",
-            "password": "password"
-        },
-        {
-            "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "wordpress.org/plugins",
-                "slug": "classic-editor"
-            },
-            "options": {
-                "activate": true
-            }
-        },
-        {
-            "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "wordpress.org/plugins",
-                "slug": "wp-quicktags"
-            },
-            "options": {
-                "activate": true
-            }
-        },
-        {
-            "step": "writeFile",
-            "path": "/wordpress/wp-content/mu-plugins/playground-notice.php",
-            "data": "<?php add_action( 'admin_notices', function() { echo '<div class=\"notice notice-info is-dismissible\"><p>This is a live preview of <strong>Classic Editor</strong> and <strong>WP Quicktags</strong>, powered by <a href=\"https://wordpress.org/playground/\" target=\"_blank\">WordPress Playground</a>.</p></div>'; } );"
-        },
         {
             "step": "wp-cli",
             "command": ["user", "meta", "update", "1", "rich_editing", "false"]
         }
-        
     ]
 }
