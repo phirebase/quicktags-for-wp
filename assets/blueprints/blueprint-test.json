@@ -30,9 +30,11 @@
             }
         },
         {
-            "step": "writeFile",
-            "path": "/wordpress/wp-content/mu-plugins/force-html-editor.php",
-            "data": "<?php function set_default_editor_to_html() { return 'html'; } add_filter('wp_default_editor', 'set_default_editor_to_html');"
+            "step": "updateUserMeta",
+            "meta": {
+                "rich_editing": "false"
+            },
+            "userId": 1
         }
     ]
 }
