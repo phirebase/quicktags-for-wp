@@ -30,13 +30,8 @@
             }
         },
         {
-            "step": "defineWpConfigConsts",
-            "consts": {
-                "CLASSIC_EDITOR_SETTINGS": {
-                    "editor": "html"
-                }
-            },
-            "method": "rewrite-wp-config"
+            "step": "runPHP",
+            "code": "<?php function set_default_editor_to_html() { return 'html'; } add_filter('wp_default_editor', 'set_default_editor_to_html');"
         }
     ]
 }
