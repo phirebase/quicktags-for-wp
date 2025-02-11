@@ -36,7 +36,7 @@
         },
         {
             "step": "executeJavaScript",
-            "code": "setTimeout(() => { let htmlButton = document.querySelector('.editor-post-text-button, .edit-post-text-editor-button, button[aria-label=\"Code editor\"]'); if(htmlButton) { htmlButton.click(); } }, 5000);"
+            "code": "setTimeout(() => { let checkEditor = setInterval(() => { let htmlButton = document.querySelector('.editor-post-text-button, .edit-post-text-editor-button, button[aria-label=\"Code editor\"]'); if(htmlButton) { htmlButton.click(); clearInterval(checkEditor); } }, 1000); }, 8000);"
         }
         
     ]
