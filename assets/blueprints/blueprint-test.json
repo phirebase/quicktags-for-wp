@@ -4,20 +4,30 @@
     "login": true,
     "plugins": [
         {
-            "resource": "wordpress.org/plugins",
-            "slug": "classic-editor",
-            "activate": true
+            "pluginData": {
+                "resource": "wordpress.org/plugins",
+                "slug": "classic-editor"
+            },
+            "options": {
+                "activate": true
+            }
         },
         {
-            "resource": "wordpress.org/plugins",
-            "slug": "wp-quicktags",
-            "activate": true
+            "pluginData": {
+                "resource": "wordpress.org/plugins",
+                "slug": "wp-quicktags"
+            },
+            "options": {
+                "activate": true
+            }
         }
     ],
     "steps": [
         {
-            "step": "wp-cli",
-            "command": ["user", "meta", "update", "1", "rich_editing", "false"]
+            "step": "setSiteOptions",
+            "options": {
+                "rich_editing": "false"
+            }
         }
     ]
 }
