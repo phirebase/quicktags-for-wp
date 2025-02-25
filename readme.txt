@@ -3,8 +3,7 @@ Contributors: brtak
 Donate link: https://paypal.me/DavidKlhufek  
 Tags: quicktags, html editor, edit, classic editor  
 Tested up to: 6.7.1 
-Stable tag: 1.4.4    
-Requires Plugins: classic-editor  
+Stable tag: 1.4.5    
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -47,6 +46,9 @@ The "mox" button adds a `<div>` with a responsive CSS class that can be styled t
 1. screenshot-1.png  
 
 == Changelog ==
+
+= 1.4.5 =
+- Moved the `Requires Plugins: classic-editor` declaration from `readme.txt` to the main PHP file to properly enforce plugin dependencies.
 
 = 1.4.4 =  
 - Added dependency check for the Classic Editor plugin, ensuring it is active and displaying a warning if not.
