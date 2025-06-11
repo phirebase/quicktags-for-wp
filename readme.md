@@ -18,12 +18,9 @@ Enhance the native WordPress **Classic Editor** with extra HTML Quicktag buttons
 
 The plugin is lightweight, direct, and adds the following tags as buttons:
 
-- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`
-- `<span>`, `<hr>`, `&nbsp;`, `mox`
+- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<span>`, `<hr>`, `&nbsp;`, `mox`
 
 The **mox** button inserts a responsive wrapper (`<div class="mox">`) you can use to highlight images or elements via CSS.
-
-> ⚠️ This plugin works **only** with the Classic Editor. Gutenberg is not supported.
 
 ---
 
@@ -49,6 +46,8 @@ The **mox** button inserts a responsive wrapper (`<div class="mox">`) you can us
 
 ## ❓ FAQ
 
+> ⚠️ This plugin works **only** with the Classic Editor. Gutenberg is not supported.
+
 ### Does this plugin work with Gutenberg (Block Editor)?
 
 No. This plugin is built specifically for the **Classic Editor**.  
@@ -70,7 +69,7 @@ You can target `.mox` in your theme’s CSS to highlight or style images, text b
 
 *Quicktags for WP in action (in Classic Editor HTML mode)
 
-> *(Add screenshots to `/assets/` folder in your GitHub repo)*
+> *(./assets/screenshot-1.png)*
 
 ---
 
