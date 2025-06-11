@@ -1,100 +1,132 @@
-﻿# === Quicktags for WP ===  
+﻿# Quicktags for WP
 
-Contributors: brtak  
-Donate link: <https://paypal.me/DavidKlhufek>  
-Tags: quicktags, html editor, edit, classic editor  
-Tested up to: 6.8  
-Stable tag: 1.4.5  
-License: GPLv2 or later  
-License URI: <http://www.gnu.org/licenses/gpl-2.0.html>  
+![WordPress Tested](https://img.shields.io/badge/WordPress-6.8-blue)
+![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue)
+![License](https://img.shields.io/badge/License-GPLv2-orange)
+[![Issues](https://img.shields.io/github/issues/phirebase/quicktags-for-wp)](https://github.com/phirebase/quicktags-for-wp/issues)
+[![Stars](https://img.shields.io/github/stars/phirebase/quicktags-for-wp?style=social)](https://github.com/phirebase/quicktags-for-wp)
 
-This simple plugin adds useful buttons to the native WordPress HTML editor.  
+Enhance the native WordPress **Classic Editor** with extra HTML Quicktag buttons.
 
-== Description ==  
+![Plugin banner](./assets/banner-772x250.jpg)
 
-This simple plugin adds useful buttons to the native WordPress HTML editor (Classic Editor).  
+---
 
-Currently adds:  
-h1, h2, h3, h4, h5, span, hr, nbsp, mox  
+## 🧩 Description
 
-The "mox" button adds a nice responsive CSS class which you can use to highlight pictures or other elements in your posts.  
+**Quicktags for WP** adds helpful HTML buttons to the native WordPress **Classic Editor** interface, specifically in the *Text* (HTML) editing mode.
 
-**Note:** This plugin works only with the Classic Editor. It does not support the new Gutenberg (Block Editor).  
+The plugin is lightweight, direct, and adds the following tags as buttons:
 
-== Compatibility ==  
+- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`
+- `<span>`, `<hr>`, `&nbsp;`, `mox`
 
-- Requires the Classic Editor to be active.  
-- Designed specifically for the **HTML mode** of the editor.  
+The **mox** button inserts a responsive wrapper (`<div class="mox">`) you can use to highlight images or elements via CSS.
 
-== Installation ==  
+> ⚠️ This plugin works **only** with the Classic Editor. Gutenberg is not supported.
 
-1. Unzip into your `/wp-content/plugins/` directory. If you're uploading it, make sure to upload the top-level folder. Don't just upload all the PHP files and put them in `/wp-content/plugins/`.  
-2. Activate the plugin through the 'Plugins' menu in WordPress.  
-3. Ensure the Classic Editor is active if you want to use the enhanced Quicktags buttons.  
+---
 
-== Frequently Asked Questions ==  
+## ✨ Features
 
-**Does this plugin work with Gutenberg (Block Editor)?**  
+- Adds missing or hidden HTML buttons to the Classic Editor
+- Focuses on clean, readable markup
+- Works only in **Text (HTML)** mode – no bloat in Visual mode
+- Includes responsive wrapper class button (`mox`)
+- Ideal for fast editors, developers, and HTML lovers
 
-No, this plugin is designed specifically for the Classic Editor. If you are using Gutenberg, the plugin's functionality will not be available.  
+---
 
-**What does the "mox" button do?**  
+## 🔧 Installation
 
-The "mox" button adds a `<div>` with a responsive CSS class that can be styled to highlight images or other elements in your posts.  
+1. Upload the plugin folder to `/wp-content/plugins/`  
+2. Activate the plugin via **Plugins > Installed Plugins**  
+3. Make sure the **Classic Editor** plugin is active  
+4. Open any post or page in the Classic Editor, and switch to **Text** tab  
+5. Start using the new buttons!
 
-== Screenshots ==  
+---
 
-![Quicktags for WP](./screenshot-1.png)
+## ❓ FAQ
 
-== Changelog ==
+### Does this plugin work with Gutenberg (Block Editor)?
 
-= 1.4.5 =
+No. This plugin is built specifically for the **Classic Editor**.  
+If you are using Gutenberg, these Quicktags will not appear.
 
-- Moved the `Requires Plugins: classic-editor` declaration from `readme.txt` to the main PHP file to properly enforce plugin dependencies.  
+### What does the "mox" button do?
 
-= 1.4.4 =  
+The `mox` button inserts the following snippet:
 
-- Added dependency check for the Classic Editor plugin, ensuring it is active and displaying a warning if not.
-- Updated the plugin code to include Text Domain for translation support.
+```html
+<div class="mox"></div>
+```
 
-= 1.4.3 =  
+You can target `.mox` in your theme’s CSS to highlight or style images, text blocks, or containers responsively.
 
-- Updated code to comply with WordPress Coding Standards using PHPCS.  
+---
 
-= 1.4.2 =  
+## 🖼️ Screenshots
 
-- Fixed header placement and added PayPal donate link.
+*Quicktags for WP in action (in Classic Editor HTML mode)
 
-= 1.4.1 =  
+> *(Add screenshots to `/assets/` folder in your GitHub repo)*
 
-- Removed the "b" button as it was redundant in newer versions of the Classic Editor where this functionality is already included by default.
-- Added the "span" button before the "hr" button.  
+---
 
-= 1.4 =  
+## 📝 Changelog
 
-- Complete rewrite of the plugin according to new guidelines.  
-- Changed the plugin name to "Quicktags for WP".  
-- Prevented direct file access by adding security checks to all PHP files.  
-- Updated function names to use a unique prefix `wpqt_` to avoid conflicts with other plugins.  
-- Improved code readability and maintainability by standardizing naming conventions.  
-- Resolved potential conflicts with other plugins by ensuring all function names, classes, and options are unique.  
+### 1.4.5
 
-= 1.3 =  
+- Moved plugin dependency declaration to main PHP file (Classic Editor)
 
-- Updated readme.txt, fixed small typo errors  
+### 1.4.4
 
-= 1.2 =  
+- Added dependency check for Classic Editor with admin notice
+- Included Text Domain for localization support
 
-- Updated readme.txt, fixed small typo errors  
+### 1.4.3
 
-= 1.1 =  
+- Updated codebase to follow **WordPress Coding Standards** (PHPCS)
 
-- Updated screenshots, fixed Uncaught ReferenceError: QTags is not defined
+### 1.4.2
 
-= 1.0 =  
+- Fixed header placement
+- Added PayPal donate link
 
-- Public release  
+### 1.4.1
 
-== Upgrade Notice ==  
+- Removed redundant `<b>` button (now native)
+- Added `<span>` button before `<hr>`
 
-No need to update, it's a stable version.  
+### 1.4
+
+- Complete rewrite to match modern standards
+- Added function prefix `wpqt_` to avoid conflicts
+- Improved security, structure, and naming
+
+### 1.3 – 1.0
+
+- Initial releases and minor fixes
+
+---
+
+## 📌 Notes
+
+- Requires the [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/)  
+- Compatible with WordPress 5.0+ through 6.8  
+- Fully client-side; does not affect front-end or content rendering
+
+---
+
+## 🙏 Credits
+
+Developed by [David Klhufek](https://phirebase.com)  
+Support the project: [paypal.me/DavidKlhufek](https://paypal.me/DavidKlhufek)
+
+---
+
+## 📄 License
+
+Licensed under the GPLv2 or later. See `LICENSE` file.  
+[https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
