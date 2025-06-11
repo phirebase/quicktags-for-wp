@@ -67,9 +67,7 @@ You can target `.mox` in your theme’s CSS to highlight or style images, text b
 
 ## 🖼️ Screenshots
 
-*Quicktags for WP in action (in Classic Editor HTML mode)
-
-> *(./assets/screenshot-1.png)*
+![Quicktags for WP in action (in Classic Editor HTML mode)](./assets/screenshot-1.png)
 
 ---
 
