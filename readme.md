@@ -1,6 +1,6 @@
 ﻿# Quicktags for WP
 
-![WordPress Tested](https://img.shields.io/badge/WordPress-6.8-blue)
+![WordPress Tested](https://img.shields.io/badge/WordPress-6.9-blue)
 ![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue)
 ![License](https://img.shields.io/badge/License-GPLv2-orange)
 [![Issues](https://img.shields.io/github/issues/phirebase/quicktags-for-wp)](https://github.com/phirebase/quicktags-for-wp/issues)
@@ -111,7 +111,7 @@ You can target `.mox` in your theme’s CSS to highlight or style images, text b
 ## 📌 Notes
 
 - Requires the [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/)  
-- Compatible with WordPress 5.0+ through 6.8  
+- Compatible with WordPress 5.0+ through 6.9  
 - Fully client-side; does not affect front-end or content rendering
 
 ---
